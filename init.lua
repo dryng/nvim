@@ -14,4 +14,4 @@ require("dryngler.plugins.lsp.null-ls")
 require("dryngler.plugins.autopairs")
 require("dryngler.plugins.treesitter")
 require("dryngler.plugins.gitsigns")
-require("dryngler.plugins.formatter")
+-- require("dryngler.plugins.formatter") -- using null-ls formatter / linter
