@@ -11,7 +11,7 @@ require("dryngler.plugins.lsp.mason")
 require("dryngler.plugins.lsp.lspsaga")
 require("dryngler.plugins.lsp.lspconfig")
 require("dryngler.plugins.lsp.null-ls")
-require("dryngler.plugins.autopairs")
+-- require("dryngler.plugins.autopairs") -- autoclose "", {}, etc.
 require("dryngler.plugins.treesitter")
 require("dryngler.plugins.gitsigns")
 -- require("dryngler.plugins.formatter") -- using null-ls formatter / linter

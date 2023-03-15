@@ -10,6 +10,7 @@ opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
+opt.pastetoggle = "<F2>" -- press F2 before paste to use correct indentation
 -- line wrapping
 opt.wrap = false -- disable line wrapping
 
@@ -39,3 +40,6 @@ opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
 opt.iskeyword:append("-") -- consider string-string as whole word
+
+-- auto save
+opt.autowriteall = true
