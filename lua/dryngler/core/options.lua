@@ -43,3 +43,6 @@ opt.iskeyword:append("-") -- consider string-string as whole word
 
 -- auto save
 opt.autowriteall = true
+
+-- macros
+-- vim.fn.setreg("q", "ctrl + r ctrl + r q")
